@@ -14,8 +14,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "jquery": "^3.6.0",
-    "lodash": "^4.17.21"
+    "jquery": "^3.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
