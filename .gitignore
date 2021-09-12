@@ -12,3 +12,4 @@ yarn-error.log*
 *.crt
 *.csr
 *.key
+dist

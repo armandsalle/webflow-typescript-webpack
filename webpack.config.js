@@ -9,7 +9,7 @@ const config = {
     publicPath: '/',
     clean: true,
   },
-  devtool: 'source-map',
+  // devtool: 'source-map',
   module: {
     rules: [
       {
