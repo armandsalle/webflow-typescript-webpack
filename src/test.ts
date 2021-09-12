@@ -1,3 +1,3 @@
 export const toto = (a: number): number => {
-    return a * 2;
+  return a * 2
 }

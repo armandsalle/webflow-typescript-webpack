@@ -10,7 +10,7 @@
     "dev": "webpack serve --open --mode development",
     "clean": "rm dist/bundle.js",
     "build": "webpack --mode production",
-    "lint": "eslint ./src --ext .ts,.tsx --cache",
+    "lint": "eslint ./src --ext .ts,.tsx --cache --fix --quiet",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -26,7 +26,9 @@
     "@typescript-eslint/parser": "^4.31.0",
     "babel-loader": "^8.2.2",
     "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
     "husky": "^7.0.2",
     "prettier": "^2.4.0",
