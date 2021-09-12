@@ -34,7 +34,8 @@ jobs:
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
         with:
-          author_name: Armand
+          author_name: Armand Sallé
           author_email: armand.salle@gmail.com
+          branch: main
           message: 'build(gh): build for prod'
           add: 'dist'
