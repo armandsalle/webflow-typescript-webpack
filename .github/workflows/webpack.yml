@@ -22,7 +22,19 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
+      - name: Install
+        run: npm install
+
+      - name: Lint
+        run: npm run lint
+
       - name: Build
-        run: |
-          npm install
-          npm run build
+        run: npm run build
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: Armand
+          author_email: armand.salle@gmail.com
+          message: 'build(gh): build for prod'
+          add: 'dist'
