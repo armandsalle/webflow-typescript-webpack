@@ -27,18 +27,6 @@ const config = {
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
   },
-  /* optimization: {
-    runtimeChunk: 'single',
-    splitChunks: {
-      cacheGroups: {
-        vendor: {
-          test: /[\\/]node_modules[\\/]/,
-          name: 'vendors',
-          chunks: 'all'
-        }
-      }
-    }
-  }, */
   devServer: {
     compress: true,
     port: 9000,
