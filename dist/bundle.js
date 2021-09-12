@@ -1,2 +1,0 @@
-(()=>{"use strict";var e={n:o=>{var r=o&&o.__esModule?()=>o.default:()=>o;return e.d(r,{a:r}),r},d:(o,r)=>{for(var l in r)e.o(r,l)&&!e.o(o,l)&&Object.defineProperty(o,l,{enumerable:!0,get:r[l]})},o:(e,o)=>Object.prototype.hasOwnProperty.call(e,o)};const o=jQuery;var r=e.n(o);console.log("hello world"),r()("h1").css("color","blue")})();
-//# sourceMappingURL=bundle.js.map
