@@ -1,2 +1,2 @@
-(()=>{"use strict";var e={n:o=>{var r=o&&o.__esModule?()=>o.default:()=>o;return e.d(r,{a:r}),r},d:(o,r)=>{for(var l in r)e.o(r,l)&&!e.o(o,l)&&Object.defineProperty(o,l,{enumerable:!0,get:r[l]})},o:(e,o)=>Object.prototype.hasOwnProperty.call(e,o)};const o=jQuery;var r=e.n(o);console.log("hello world"),console.log(r()(".my-element")),console.log(18)})();
+(()=>{"use strict";var e={n:r=>{var o=r&&r.__esModule?()=>r.default:()=>r;return e.d(o,{a:o}),o},d:(r,o)=>{for(var t in o)e.o(o,t)&&!e.o(r,t)&&Object.defineProperty(r,t,{enumerable:!0,get:o[t]})},o:(e,r)=>Object.prototype.hasOwnProperty.call(e,r)};const r=jQuery;e.n(r)()("h1").css("color","blue"),console.log("r")})();
 //# sourceMappingURL=bundle.js.map
