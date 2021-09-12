@@ -1,8 +1,5 @@
 import $ from 'jquery'
 
-import { doubleNumber } from './test'
+$('h1').css('color', 'blue')
 
-console.log('hello world')
-
-console.log($('.my-element'))
-console.log(doubleNumber(9))
+console.log('r')
