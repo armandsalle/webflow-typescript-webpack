@@ -1,3 +1,3 @@
-export const toto = (a: number): number => {
+export const doubleNumber = (a: number): number => {
   return a * 2
 }
