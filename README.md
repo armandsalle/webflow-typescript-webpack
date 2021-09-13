@@ -10,6 +10,8 @@ I'm using `Netlify` to build and host my code because it's easy to use, free and
 
 ## How to use with Webflow
 
+⚠️ if you are using Brave as web browser or an ad blocker, you will need to disabled it. Else it can block the fetching of the js files. ⚠️
+
 If you are developing the site and coding at the same time, you can just add a script tag on pages that need your code
 
 ```html
