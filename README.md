@@ -1,16 +1,13 @@
 # webflow-webpack
 
 This is a basic setup with Webpack and Typescript that you can use for your Webflow website.
-
-`jQuery` is already installed and declared as an external dependencie.
-
-By default, Webpack bundle multiple files for better performances (one file by page to avoid heavy JS load on page that doesn't need it), but you can change this in the `webpack.config.js`.
-
-I'm using `Netlify` to build and host my code because it's easy to use, free and have serverless functions out of the box. Feel free to use your favorite CDN.
+`jQuery` is already installed and declared as an external dependency.
+By default, Webpack bundles multiple files for better performances (one file by page to avoid heavy JS load on a page that doesn't need it), but you can change this in the `webpack.config.js`.
+I'm using `Netlify` to build and host my code because it's easy to use, free, and has serverless functions out of the box. Feel free to use your favorite CDN.
 
 ## How to use with Webflow
 
-⚠️ if you are using Brave as web browser or an ad blocker, you will need to disabled it. Else it can block the fetching of the js files. ⚠️
+⚠️ if you are using Brave as a web browser or an ad blocker, you will need to disable it. Else it can block the fetching of the js files. ⚠️
 
 If you are developing the site and coding at the same time, you can just add a script tag on pages that need your code
 
@@ -46,7 +43,7 @@ But if you only code and don't have access to the project you can use this code 
 </script>
 ```
 
-For a production ready code, add a script tag with your produciton URL.
+For a production-ready code, add a script tag with your production URL.
 
 ```html
 <script src="https://YOUR_DOMAIN.netlify.app/index.js"></script>
@@ -56,7 +53,7 @@ For a production ready code, add a script tag with your produciton URL.
 
 This project is using `yarn`.
 
-First install dependencies:
+First, install dependencies:
 
 ```sh
 yarn
