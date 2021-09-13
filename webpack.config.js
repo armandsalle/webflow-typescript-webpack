@@ -1,15 +1,23 @@
 const path = require('path')
-const webpack = require('webpack')
 
 const config = {
-  entry: './src/index.ts',
+  entry: {
+    index: './src/index.ts',
+    about: './src/about.ts',
+  },
   output: {
+    filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
     publicPath: '/',
     clean: true,
   },
-  // devtool: 'source-map',
+  // entry: './src/index.ts',
+  // output: {
+  //   path: path.resolve(__dirname, 'dist'),
+  //   filename: 'app.js',
+  //   publicPath: '/',
+  //   clean: true,
+  // },
   module: {
     rules: [
       {
@@ -27,6 +35,7 @@ const config = {
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
   },
+  // devtool: 'inline-source-map',
   devServer: {
     compress: true,
     port: 9000,
