@@ -1,10 +1,10 @@
 {
   "name": "webflow-webpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "Basic template for Webpack with Webflow",
   "main": "index.js",
-  "keywords": [],
-  "author": "",
+  "keywords": ["typescript","webpack", "webflow", "prettier-eslint"],
+  "author": "Armand Sallé",
   "license": "ISC",
   "scripts": {
     "dev": "webpack serve --mode development",
