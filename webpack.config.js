@@ -1,10 +1,10 @@
+/** 
+@type {import('@types/webpack').Configuration}
+*/
+
 const path = require('path')
 
 const config = {
-  entry: {
-    index: './src/index.ts',
-    about: './src/about.ts',
-  },
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
